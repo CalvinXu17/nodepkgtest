@@ -1,0 +1,33 @@
+{
+  "name": "共享雷达服务端",
+  "version": "1.0.0",
+  "description": "测试跨平台 pkg 打包",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "pkg": {
+    "scripts": [
+      "./index.js"
+    ],
+    "assets": [],
+    "targets": [
+      "node18-win-x64",
+      "node18-win-arm64",
+      "node18-linux-x64",
+      "node18-linux-arm64",
+      "node18-macos-x64",
+      "node18-macos-arm64"
+    ],
+    "outputPath": "bin",
+    "bin": "共享雷达服务端",
+    "name": "共享雷达服务端",
+    "productName": "共享雷达服务端",
+    "description": "共享雷达服务端"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
